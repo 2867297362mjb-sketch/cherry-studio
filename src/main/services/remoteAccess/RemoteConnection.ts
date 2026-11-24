@@ -69,6 +69,7 @@ export class RemoteConnection {
         agentMessageSummariesVersion: 1,
         agentUploadsVersion: 1,
         agentUploadChecksum: 'sha256' as const,
+        agentSessionModelSelection: true,
         agentAttachmentSelections: true,
         connectionEndpointsVersion: 1,
         limits: {
